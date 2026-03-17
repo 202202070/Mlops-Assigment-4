@@ -1,0 +1,13 @@
+name: mlops_ass3
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - mlflow
+      - torch
+      - torchvision
+      - pandas
+      - pyyaml
